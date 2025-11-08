@@ -689,7 +689,7 @@ def main():
         robot.run_sim(q_solution, use_prebuilt=use_prebuilt, prebuilt_urdf_path=prebuilt_path,
                       save_jointmap=save_jointmap, save_traj_csv=save_traj_csv,
                       traj_csv_path=traj_csv_path if traj_csv_path else 'trajectory.csv')
-        downloads_dir = r"C:\Users\murik\OneDrive\Documents\python"
+        downloads_dir = r"C:\Users\kranthi\OneDrive\Documents\python"
         if save_traj_csv:
             copy_traj = input(f"Do you want a copy of '{traj_csv_path}' saved to {downloads_dir}? (y/n): ").strip().lower() == 'y'
             if copy_traj:
@@ -716,4 +716,5 @@ def main():
     except Exception as e:
         print(f"Error: {e}")
 if __name__ == "__main__":
+
     main()
