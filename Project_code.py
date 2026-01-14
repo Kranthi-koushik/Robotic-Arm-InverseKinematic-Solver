@@ -492,7 +492,6 @@ class IKSolver:
                            "As requested, numeric fallback has been removed. Try entering a manipulator that matches "
                            "a textbook analytic form (PPP, PRP, RRP/SCARA, planar 2R/3R, 6R spherical wrist with planar first 3), "
                            "or re-enable numeric IK in a different script.")
-    #kranthi
 # -------------------------
 # URDF Download / Fetch logic
 # -------------------------
@@ -718,3 +717,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
